@@ -1,12 +1,38 @@
 vote-system
 ===========
 
-MIAC vote system
+This project provides a convenient vote system for 2014 election of MIAC. It has no server supports but just a simple front-end web page. Yeah, it's a Single Page Application!! 
 
-项目目的：本项目的目的是为MIAC（modern internet application club)2014年换届选举专门写的一个投票系统
+This project is in active development, but we strongly recommend you to use it, actually. It's fancy.
 
-当前版本：1.0
+## Usage
+It is incredibly easy to use!! Follow the instructions below:
 
-当前功能：新增候选人，并可为其投票，可增加一票，也可减少一票
+### step 1:
 
-注：无后台功能
+    git clone <git-repo-uri>
+    cd vote-system
+    explore .
+
+### step 2:
+
+Double click the `index.html`, you would see the whole application in your browser. We don't provide any tips for using it, for it is super easy to use; even idiots can figure how to use it without any learnings.
+
+
+## Technical Details
+
+* **jQuery**, and that's all.
+
+## Roadmap
+No roadmaps
+
+## Test
+
+No tests
+
+## Contribution
+We don't accpet any pull requests or any proposals. Forget about it.
+
+## License
+MIT
+
