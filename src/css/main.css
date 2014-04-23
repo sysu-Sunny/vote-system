@@ -6,6 +6,7 @@
 body {
 	font-size: 16px;
 	font-family: arial,sans-serif;
+	color: #000;
 }
 
 ul, li {
@@ -17,8 +18,10 @@ a {
 }
 
 h1 {
+	font-size: 45px;
 	margin: 20px 0;
 	text-align: center;
+	letter-spacing: 2px;
 }
 
 .clear {
@@ -41,11 +44,11 @@ h1 {
 .vote-box {
 	position: relative;
 	float: left;
-	width: 120px;
-	height: 150px;
+	width: 144px;
+	height: 180px;
 	margin: 10px;
 	padding: 10px;
-	background-color: yellow;
+	background-color: #E7E7E7;
 
 }
 
@@ -59,29 +62,30 @@ h1 {
 }
 
 .vote-box input {
-	max-width: 120px;
-	line-height: 30px;
-	font-size: 20px;
+	max-width: 144px;
+	line-height: 40px;
+	font-size: 30px;
+	font-weight: bold;
 	margin: 5px 0;
 	text-align: center;
 }
 
 .vote-box .arrows {
-	float: left;
 	width:0; 
 	height:0;
-	margin: 10px 0;
+	margin: 20px 0 0 0;
 	cursor: pointer;
 }
 
 .vote-box .arrow-up {
-	
+	float: left;
 	border-left:30px solid transparent; 
 	border-right:30px solid transparent; 
 	border-bottom:30px solid #00F; 
 }
 
 .vote-box .arrow-down {
+	float: right;
 	border-left:30px solid transparent; 
 	border-right:30px solid transparent; 
 	border-top:30px solid #00F; 
@@ -92,8 +96,8 @@ h1 {
 }
 
 #add-user img {
-	width: 120px;
-	height: 150px;
+	width: 144px;
+	height: 180px;
 }
 
 .vote-box {
