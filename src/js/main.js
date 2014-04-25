@@ -21,7 +21,9 @@ $("#main-content").on("click", "#add-user", function() {
 })
 
 $("#main-content").on("click", ".btn-close", function() {
-    $(this).closest('.vote-box').remove();
+    if(confirm("确认删除吗？")) {
+        $(this).closest('.vote-box').remove();
+    }
 })
 
 function getUser(node) {
